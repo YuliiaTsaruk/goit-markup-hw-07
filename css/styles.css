@@ -393,7 +393,8 @@ img {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  column-gap: 16px;
+  row-gap: 72px;
   align-items: center;
   justify-content: center;
 }
@@ -428,19 +429,23 @@ img {
 }
 
 /* Footer */
+
+.footer {
+  width: 100%;
+  background: #2e2f42;
+  padding: 96px 15px;
+}
+
 .footer-container {
   display: flex;
-  justify-content: start;
-  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-footer-container {
-  margin-right: 120px;
-}
-
-.footer {
-  background: #2e2f42;
-  padding: 100px 0;
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .footer-logo {
@@ -461,11 +466,12 @@ img {
 
 .footer-text {
   display: block;
-  min-width: 264px;
+  max-width: 268px;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .soc-text {
@@ -477,6 +483,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-soc-list {
@@ -511,7 +518,7 @@ img {
 }
 
 .subscribe-container {
-  margin-left: 80px;
+  margin-top: 72px;
 }
 
 .subscribe-text {
@@ -523,21 +530,22 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-form {
+  width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .footer-label {
-  margin-right: 24px;
+  margin-bottom: 16px;
 }
 
 .subscribe-input {
-  width: 264px;
+  width: 100%;
+  min-width: 396px;
   height: 40px;
   font-size: 12px;
   line-height: 1.5;
