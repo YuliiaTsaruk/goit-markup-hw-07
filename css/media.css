@@ -1,16 +1,20 @@
 @media screen and (max-width: 427px) {
   .container {
-    width: 320px;
+    max-width: 320px;
   }
 
   .phone-adress-link {
     font-size: 28px;
   }
+
+  .subscribe-input {
+    max-width: 290px;
+  }
 }
 
 @media screen and (min-width: 428px) and (max-width: 765px) {
   .container {
-    width: 426px;
+    max-width: 426px;
   }
 }
 
@@ -218,7 +222,7 @@
   }
 
   .subscribe-input {
-    min-width: 264px;
+    width: 264px;
   }
 }
 
