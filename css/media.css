@@ -1,3 +1,13 @@
+@media screen and (max-width: 427px) {
+  .container {
+    width: 320px;
+  }
+
+  .phone-adress-link {
+    font-size: 28px;
+  }
+}
+
 @media screen and (min-width: 428px) and (max-width: 765px) {
   .container {
     width: 426px;
