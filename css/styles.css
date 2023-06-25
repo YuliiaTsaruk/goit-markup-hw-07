@@ -145,9 +145,7 @@ img {
 
 .mob-menu-container {
   max-width: 426px;
-  height: calc(100% - 30px);
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 100%
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -178,6 +176,7 @@ img {
 
 .mob-menu-list-container {
   margin-top: 80px;
+  margin-left: 40px;
 }
 
 .mob-menu-list {
@@ -206,8 +205,11 @@ img {
 
 .mob-address {
   font-style: normal;
-  margin-left: auto;
+  margin-left: 40px;
+  margin-bottom: 48px;
+  margin-top: 284px;
 }
+
 .mob-address-list {
   display: flex;
   flex-direction: column;
@@ -232,6 +234,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-soc-container {
+  margin-left: 40px;
   margin-bottom: 40px;
 }
 
