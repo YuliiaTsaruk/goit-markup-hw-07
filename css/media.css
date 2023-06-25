@@ -239,7 +239,7 @@
 
 @media screen and (min-width: 1158px) {
   .container {
-    min-width: 1128px;
+    min-width: 1158px;
   }
 
   .header-container {
@@ -368,7 +368,7 @@
   .team > .container,
   .customers > .container,
   .footer > .container {
-    width: 1158px;
+    min-width: 1158px;
   }
 
   .team {
@@ -384,6 +384,7 @@
   }
 
   .customers {
+    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -397,7 +398,7 @@
   }
 
   .customers-item {
-    width: calc((100%-120px) / 6);
+    width: calc((100% - 120px) / 6);
     height: 88px;
     padding-left: 0;
     padding-right: 0;
