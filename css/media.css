@@ -7,8 +7,15 @@
     font-size: 28px;
   }
 
+  .subscribe-container,
+  .footer-form,
+  .footer-label,
   .subscribe-input {
-    max-width: 290px;
+    width: 100%;
+  }
+
+  .modal {
+    width: 96%;
   }
 }
 
@@ -200,6 +207,9 @@
     margin-right: 24px;
     text-align: left;
   }
+  .footer-text {
+    min-width: 268px;
+  }
 
   .soc-text {
     text-align: left;
@@ -219,6 +229,7 @@
 
   .footer-label {
     margin-bottom: 0;
+    width: 264px;
   }
 
   .subscribe-input {
@@ -228,7 +239,7 @@
 
 @media screen and (min-width: 1158px) {
   .container {
-    min-width: 1126px;
+    min-width: 1158px;
   }
 
   .header-container {
@@ -241,6 +252,10 @@
 
   .header-logo {
     margin-right: 76px;
+    margin-left: auto;
+  }
+
+  .address {
     margin-left: auto;
   }
 
@@ -352,9 +367,8 @@
   .team > .container,
   .customers > .container,
   .footer > .container {
-    width: 1158px;
+    width: 1126px;
     margin: 0 auto;
-    padding: 0 15px;
   }
 
   .team {
@@ -379,11 +393,11 @@
     flex-wrap: nowrap;
     gap: 24px;
     align-items: center;
-    justify-content: center;
   }
 
   .customers-item {
     width: calc((100%-120px) / 6);
+    height: 88px;
   }
 
   .footer {
@@ -393,7 +407,6 @@
   .footer-container {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
   }
 
   .logo-footer-container {
@@ -406,6 +419,6 @@
   }
 
   .subscribe-container {
-    margin-left: 80px;
+    margin-left: auto;
   }
 }
