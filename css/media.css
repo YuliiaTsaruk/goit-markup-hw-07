@@ -4,7 +4,11 @@
   }
 
   .phone-adress-link {
-    font-size: 28px;
+    font-size: 26px;
+  }
+
+  .mob-soc-container {
+    padding-right: 30px;
   }
 
   .subscribe-container,
