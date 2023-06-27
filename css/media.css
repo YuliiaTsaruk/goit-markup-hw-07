@@ -24,8 +24,6 @@
 
   .modal {
     width: 96%;
-    min-height: 584px;
-    padding: 72px 16px 24px;
   }
 }
 
@@ -36,7 +34,6 @@
 
   .modal {
     width: 392px;
-    min-height: 584px;
   }
 }
 
@@ -250,6 +247,10 @@
 
   .subscribe-input {
     width: 264px;
+  }
+
+  .modal {
+    padding: 72px 24px 24px;
   }
 }
 
