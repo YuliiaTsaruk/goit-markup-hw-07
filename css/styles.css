@@ -965,7 +965,3 @@ img {
   fill: var(--second-bgc-check);
   border: none;
 }
-
-.send-btn {
-  margin-top: 24px;
-}

@@ -24,6 +24,8 @@
 
   .modal {
     width: 96%;
+    min-height: 584px;
+    padding: 72px 16px 24px;
   }
 }
 
@@ -43,7 +45,8 @@
     max-width: 766px;
   }
 
-  .mob-menu-hamburger {
+  .mob-menu-hamburger,
+  .menu-mob {
     display: none;
   }
 
