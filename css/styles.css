@@ -202,11 +202,17 @@ img {
   color: #404bbf;
 }
 
+.mob-address-container {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
 .mob-address {
   font-style: normal;
   padding-left: 40px;
   padding-bottom: 48px;
-  padding-top: 284px;
+  margin-top: auto;
 }
 
 .mob-address-list {
